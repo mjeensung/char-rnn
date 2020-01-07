@@ -19,6 +19,29 @@ python main.py --learning_rate 0.002\
     --rnn gru\
     --sampling sample
 ```
+Plot train_loss and val_loss via TensorboardX.
+![Alt text](./result_20200107.jpg)
 
-## Result (TODO)
+## Result
+
+~~~
+clown:
+one florance, i am for meet,
+i shall it not verbided, a mad;
+nuth, sir, for post thy advertis: make quite
+tribunes:
+take honourable commission: tell sprayk aboutly.
+by many lipprame him; how i too.
+
+rivers:
+go several, gaves to the top to too?
+i would plantagenetions as you
+in twenty tongue and love;
+no four right of my first custom for my sword, and she
+he knows not yet.
+
+first citizen:
+we have but let him up.
+but fetch a thousand abqua
+~~~
 
