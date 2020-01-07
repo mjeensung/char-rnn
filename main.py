@@ -119,6 +119,7 @@ def main():
     # train
     global_step = 0
     best_loss = float('inf')
+    count = 0
     for epoch in range(args.epoch):
         total_loss = 0
         for i, data in tqdm(enumerate(train_loader), total=len(train_loader)):
@@ -145,6 +146,7 @@ def main():
         if best_loss > total_loss:
             print("best loss is updated")
             best_loss = total_loss
+            count = 0
         else:
             count +=1
 
